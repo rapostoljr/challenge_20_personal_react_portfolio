@@ -2,11 +2,18 @@ import React from 'react';
 import resume from '../assets/files/RESUME.pdf'
 
 const Resume = () => {
+    return (
     <section className="resume">
         <h2>Resume</h2>
-        <a href={resume} download="Romulo Apostol_Resume.pdf">Download</a>
-        <embed src={resume} type="application/pdf" />
+        <a href={resume} download="Romulo_Apostol_Resume.pdf">Download</a>
+        <iframe
+            src={resume}
+            width="100%"
+            height="600px"
+            title="Resume"
+         />
     </section>
+    )
 }
 
 
