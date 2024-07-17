@@ -35,4 +35,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## VIEWING MY PROJECT
 Link to GitHub: <i> https://github.com/rapostoljr/challenge_20_personal_react_portfolio.git </i>\
-Link to Netlify Deployed Application: <i> ENTER LINK HERE </i>
+Link to Netlify Deployed Application: <i> https://melodic-cat-3eb985.netlify.app </i>
