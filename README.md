@@ -4,7 +4,7 @@
 Creating my portfolio to display my works and describe myself for future job ventures.
 
 ## HOW TO USE
-
+Open netlify link
 
 ## ACCEPTANCE CRITERIA
 GIVEN a single-page application portfolio for a web developer\

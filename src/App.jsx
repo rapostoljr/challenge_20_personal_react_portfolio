@@ -1,17 +1,27 @@
-// Bringing in the required import from 'react-router-dom'
-import { Outlet } from 'react-router-dom';
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import Header from './components/Header';
+
 import AboutPage from './pages/AboutPage';
 import WorksPage from './pages/WorksPage';
 import ResumePage from './pages/ResumePage';
 
-function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
-  return (
-    <>
-      <AboutPage />
-    </>
-  );
-}
+import Footer from './components/Footer';
+
+const App = () => (
+  <Router>
+    <Header />
+    <main>
+      <Routes>
+        <Route path="/" element={<AboutPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/works" element={<WorksPage />} />
+        <Route path="/resume" element={<ResumePage />} />
+      </Routes>
+    </main>
+    <Footer />
+  </Router>
+);
 
 export default App;

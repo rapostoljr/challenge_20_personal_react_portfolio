@@ -5,7 +5,7 @@ import WeatherApp from "../assets/images/weatherApp-search.png"
 
 import '../App.css';
 
-const Works = () => {
+export default function WorksPage() {
     return (
     <section className="my-works">
         <h2>MY WORKS</h2>
@@ -18,5 +18,3 @@ const Works = () => {
     </section>
     )
 }
-
-export default Works;
