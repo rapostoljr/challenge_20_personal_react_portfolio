@@ -41,6 +41,11 @@
   color: #888;
 }
 
+/* Header CSS */
+.about-me img {
+  margin-top: 2rem;
+}
+
 /* Works Page CSS */
 .my-works a {
     margin-top: 10px;
