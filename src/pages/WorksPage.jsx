@@ -1,5 +1,5 @@
 import GoatCommerce from "../assets/images/mainPage.jpg";
-import Horisen from "../assets/images/horiseon.jpg";
+import CodingQuiz from "../assets/images/codingQuiz.png";
 import GoatTracker from "../assets/images/Tracker_pg1.png";
 import WeatherApp from "../assets/images/weatherApp-search.png"
 
@@ -33,10 +33,17 @@ export default function WorksPage() {
 
                 <div className="work-item">
                     <a href="https://boiling-bastion-87037-4394261bcf08.herokuapp.com/" target="_blank">
-                        <img src={GoatCommerce} alt="Refactor GOAT E-COMMERCE to React"/>
+                        <img src={GoatCommerce} alt="JavaScript Coding Quiz"/>
                         <p>Refactor GOAT E-COMMERCE to React</p>
                     </a>
-                </div>                
+                </div>
+
+                <div className="work-item">
+                    <a href="https://rapostoljr.github.io/challenge_4_multiple_choice_coding_quiz/" target="_blank">
+                        <img src={CodingQuiz} alt="Refactor GOAT E-COMMERCE to React"/>
+                        <p>JavaScript Coding Quiz</p>
+                    </a>
+                </div>              
             </div>
         </section>
     )
