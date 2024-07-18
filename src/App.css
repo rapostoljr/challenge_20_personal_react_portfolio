@@ -47,20 +47,29 @@
 }
 
 /* Works Page CSS */
-.my-works a {
-    margin-top: 10px;
-    margin-left: 20px;
+.work-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.my-works img {
-    display: inline-block;
-    width: 150px;
-    height: 200px;
+.work-item img {
+  display: inline-block;
+  max-width: 100%;
+  width: 150px;
+  height: 200px;
+}
+
+.work-item {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .my-works img:hover, #resume img:hover {
     transform: scale(1.25);
 }
+
 
 /* Nav Bar CSS */
 nav {
