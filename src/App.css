@@ -103,4 +103,9 @@ footer .icon {
   transition: transform 0.3s ease;
 }
 
-
+/* Resume CSS */
+.resume img {
+  width: 25px;
+  height: 40px;
+  padding-right: 5px;
+}
