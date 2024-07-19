@@ -5,9 +5,9 @@ export default function NavBar(){
     return (
         <nav>
         <ul>
-          <li><NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About Me</NavLink></li>
-          <li><NavLink to="/works" className={({ isActive }) => (isActive ? 'active' : '')}>Portfolio</NavLink></li>
-          <li><NavLink to="/resume" className={({ isActive }) => (isActive ? 'active' : '')}>Resume</NavLink></li>
+          <li><NavLink to="/about" className="navLink">About Me</NavLink></li>
+          <li><NavLink to="/works" className="navLink">Portfolio</NavLink></li>
+          <li><NavLink to="/resume" className="navLink">Resume</NavLink></li>
         </ul>
       </nav>
     )
