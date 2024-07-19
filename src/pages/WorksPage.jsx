@@ -8,7 +8,7 @@ import '../App.css';
 export default function WorksPage() {
     return (
         <section className="my-works">
-            <h2>MY WORKS</h2>            
+            <h2>My Works</h2>            
             <div className="work-items-container">
                 <div className="work-item">
                     <a href="https://ojds2022.github.io/goat_calorie_tracker/" target="_blank">
