@@ -5,29 +5,6 @@
   text-align: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
 /* Header CSS */
 .about-me img {
   margin-top: 2rem;
@@ -76,21 +53,19 @@ nav li {
   font-size: 1.5rem;
   margin: 0 2rem 1rem;
 }
-nav li:hover {
-  text-decoration-color: black;
-}
 
 /* Footer CSS */
 .icon-image {
   width: 40px; 
-  height: 40px; 
-  transition: transform 0.3s ease; 
+  height: 40px;
 }
 
 footer .icon {
   margin: 0 0.5rem;
-  text-decoration: none;
-  transition: transform 0.3s ease;
+}
+
+footer img:hover {
+  transform: scale(1.25);
 }
 
 /* Resume CSS */
