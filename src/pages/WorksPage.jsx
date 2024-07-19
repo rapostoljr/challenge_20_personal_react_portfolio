@@ -33,14 +33,14 @@ export default function WorksPage() {
 
                 <div className="work-item">
                     <a href="https://rapostoljr.github.io/challenge_4_multiple_choice_coding_quiz/" target="_blank">
-                        <img src={GoatCommerce} alt="JavaScript Coding Quiz"/>
+                        <img src={CodingQuiz} alt="JavaScript Coding Quiz"/>
                         <p>Refactor GOAT E-COMMERCE to React</p>
                     </a>
                 </div>
 
                 <div className="work-item">
                     <a href="https://boiling-bastion-87037-4394261bcf08.herokuapp.com/" target="_blank">
-                        <img src={CodingQuiz} alt="Refactor GOAT E-COMMERCE to React"/>
+                        <img src={GoatCommerce} alt="Refactor GOAT E-COMMERCE to React"/>
                         <p>JavaScript Coding Quiz</p>
                     </a>
                 </div>              
