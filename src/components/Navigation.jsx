@@ -8,6 +8,7 @@ export default function NavBar(){
             <li><NavLink to="/" className="navLink">About Me</NavLink></li>
             <li><NavLink to="/works" className="navLink">Portfolio</NavLink></li>
             <li><NavLink to="/resume" className="navLink">Resume</NavLink></li>
+            <li><NavLink to="/contactme" className="navLink">Contact</NavLink></li>
           </ul>
         </nav>
     )
