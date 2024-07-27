@@ -1,6 +1,7 @@
 import React from 'react';
 import githubIcon from '../assets/images/github-icon.png';
 import linkedinIcon from '../assets/images/linkedin-icon.png';
+import facebookIcon from '../assets/images/facebook-icon.png';
 
 const Footer = () => (
   <footer className="footer">
@@ -10,6 +11,9 @@ const Footer = () => (
     </a>
     <a href="https://www.linkedin.com/in/romulo-apostol-7886041b3/" target="_blank" rel="noopener noreferrer" className="icon">
       <img src={linkedinIcon} alt="LinkedIn" className="icon-image" />
+    </a>
+    <a href="https://www.facebook.com/romulo.apostol" target="_blank" rel="noopener noreferrer" className="icon">
+      <img src={facebookIcon} alt="LinkedIn" className="icon-image" />
     </a>
     <hr/>© 2024 Romulo Apostol Jr., LLC All Rights Reserved.
   </footer>

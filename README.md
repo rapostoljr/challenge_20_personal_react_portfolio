@@ -5,6 +5,7 @@ Creating my portfolio to display my works and describe myself for future job ven
 
 ## HOW TO USE
 Open netlify link
+![alt main](./src/assets/images/portfolio.png)
 
 ## ACCEPTANCE CRITERIA
 GIVEN a single-page application portfolio for a web developer\

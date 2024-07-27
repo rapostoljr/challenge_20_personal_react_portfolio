@@ -38,7 +38,7 @@ const Contact = () => {
         } else {
             setErrors(formErrors); 
         }
-}   ;
+    };
 
   return (
     <section>

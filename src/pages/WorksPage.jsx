@@ -2,6 +2,7 @@ import GoatCommerce from "../assets/images/mainPage.jpg";
 import CodingQuiz from "../assets/images/codingQuiz.png";
 import GoatTracker from "../assets/images/Tracker_pg1.png";
 import WeatherApp from "../assets/images/weatherApp-search.png"
+import PasswordGenerator from "../assets/images/password-generator.png"
 
 import '../App.css';
 
@@ -43,6 +44,13 @@ export default function WorksPage() {
                         <img src={GoatCommerce} alt="Refactor GOAT E-COMMERCE to React"/>
                         <p>Refactor GOAT E-COMMERCE to React</p>
                     </a>
+                </div>
+
+                <div className="work-item">
+                    <a href="https://rapostoljr.github.io/challenge_3_unique_password_generator/" target="_blank">
+                        <img src={PasswordGenerator} alt="Password Generator"/>
+                        <p>Password Generator</p>
+                    </a>                    
                 </div>              
             </div>
         </section>
